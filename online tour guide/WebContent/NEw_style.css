@@ -1,0 +1,132 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+.wrapper{
+    width: 1170px;
+    margin: auto;
+    
+}
+header{
+    background:url("images/Online tour1.JPG");
+    height:100px;
+    -webkit-background-size:cover;
+    background-size:cover;
+    background-position: center center;
+    position: relative;
+}
+.nav-area{
+    float: right;
+    list-style: 30px;
+    margin-top: 1px;
+}
+.nav-area li{
+    display: inline-block;
+}
+.nav-area li a{
+    color: #fff;
+    text-decoration: none;
+    padding: 5px 20px;
+    font-family: poppins;
+    font-size: 20px;
+}
+.nav-area li a:hover{
+    background:#fff;
+    color: #333;
+}
+.logo img{
+    width: 100px;
+    float: left;
+    height: auto;
+}
+.welcome-text{
+    position: absolute;
+    width: 600px;
+    height: 200px;
+    margin: 20% 30%;
+    text-align: center;
+}
+.welcome-text h1{
+     text-align:center;
+      color: #C0C0C0;
+    text-transform: uppercase;
+    font-size:60px;
+}
+.welcome-text a{
+    border: 1px solid #fff;
+    padding: 10px 25px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 40px;
+    margin-top: 20px;
+    display: inline-block;
+    color: 	#C0C0C0;
+}
+.welcome-text a:hover{
+    background: #fff;
+    color: #333;
+}
+.welcome-text h2{
+    text-align:center;
+    color:#C0C0C0;
+    font-size:20px;
+    
+}
+
+.Heading{
+    font-size: 40px;
+    color: 	#fff;
+}
+.feed{
+	background-image:url("images/Online tour2.JPG");
+}
+
+/* Position text in the middle of the page/image */
+.bg-text {
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0, 0.4); /* Black w/opacity/see-through */
+  color: white;
+  font-weight: bold;
+  border: 3px solid #f1f1f1;
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+  width: 80%;
+  padding: 20px;
+  text-align: center;
+}
+footer{
+
+	border: 3px solid #73AD21;
+	height : 225px;
+}
+
+footer div{
+
+	float: left;
+}
+
+#footer-center-content{
+
+	padding: 0px 200px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
